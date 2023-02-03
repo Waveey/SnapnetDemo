@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '9fe0e004-e178-49a5-8277-4f7f8d1aee68'
+  azureSubscription: '68692709-0fd0-4e41-b5fa-fa5d187d7608'
 
   # Web app name
   webAppName: 'snapnetDemotest'
