@@ -8,10 +8,10 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '68692709-0fd0-4e41-b5fa-fa5d187d7608'
+  azureSubscription: '9fe0e004-e178-49a5-8277-4f7f8d1aee68'
 
   # Web app name
-  webAppName: ''
+  webAppName: 'snapnetDemotest'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
@@ -26,7 +26,7 @@ stages:
 - stage: Build
   displayName: Build stage
   variables:
-    phpVersion: '7.3'
+    phpVersion: '8.2'
   jobs:
   - job: BuildJob
     pool:
